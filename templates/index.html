@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Form</title>
+	<link rel="stylesheet"  href="{{ url_for('static', filename='css/styles.css') }}">
+	<!-- <link rel="stylesheet" href="/static/css/styles.css"> -->
+
+</head>
+<body>
+	<h1 id="logo">Code Optimizer</h1>
+	<form action="/result" method="post">
+		<label for="input" class="input-text"><h1>Input:</h1></label><br>
+		<textarea id="input" name="input" rows="30" cols="25" id="input-area" style="resize: none;"></textarea><br>
+		<input type="submit" value="Submit" id="submit-btn">
+	</form>
+	<section class="right-side">
+
+	</section>
+</body>
+</html>

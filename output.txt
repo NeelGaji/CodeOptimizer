@@ -1,0 +1,17 @@
+Quadruple form after Constant Folding
+-------------------------------------
+['=', '3', 'NULL', 'a']
+['=', 5, 'NULL', 'c']
+['+', '3', 'd', 'c']
+['=', 15, 'NULL', 'd']
+
+Constant folded expression - 
+--------------------
+['a', '=', '3']
+['c', '=', 5]
+['c', '=', '+', 'd']
+['d', '=', 15]
+
+After dead code elimination 
+--------------------
+['c', '=', '3', '+', 'd']

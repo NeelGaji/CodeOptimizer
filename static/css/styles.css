@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+#logo{
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: whitesmoke;
+}
+form{
+    width: 50%;
+}
+body{
+    background-color: #414A61;
+    padding: 0px 25px;
+}
+.input-text{
+    color: whitesmoke;
+}
+#input-area{
+    resize: none;
+}
+#submit-btn{
+    position: absolute;
+    padding:10px 30px;
+    top: 50%;
+    left: 15%;
+    background-color: #333;
+    color: whitesmoke;
+    font-size: 1em;
+    font-weight: 500;
+    box-shadow: 1px 0.5px white;
+    transition: 0.3s ease-in-out;
+}
+#submit-btn::after{
+    transform: ;
+}
+
+.output{
+    color: white;
+
+}
+
+pre{
+    padding-top: 30px;
+    color: whitesmoke;
+}
